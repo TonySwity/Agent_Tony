@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="add LookAt  method">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterDir="false" />
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="change color">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gun.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gun.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Player.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -85,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654444943871</updated>
-      <workItem from="1654444967267" duration="4893000" />
+      <workItem from="1654444967267" duration="6424000" />
     </task>
     <task id="LOCAL-00001" summary="system Unity and idea">
       <created>1654446435631</created>
@@ -115,7 +112,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654451663049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add mousePosition in Plain">
+      <created>1654451787345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654451787345</updated>
+    </task>
+    <task id="LOCAL-00006" summary="renamed SampleScene.unity -&gt; Game">
+      <created>1654451848139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654451848139</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change color">
+      <created>1654451878290</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654451878290</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +160,9 @@
     <MESSAGE value="add folder materials -&gt; player ground and rotate main Camera" />
     <MESSAGE value="add move method rigidbody" />
     <MESSAGE value="add LookAt  method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LookAt  method" />
+    <MESSAGE value="add mousePosition in Plain" />
+    <MESSAGE value="renamed SampleScene.unity -&gt; Game" />
+    <MESSAGE value="change color" />
+    <option name="LAST_COMMIT_MESSAGE" value="change color" />
   </component>
 </project>
