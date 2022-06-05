@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="system Unity and idea">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player.mat.meta" afterDir="false" />
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="add LookAt  method">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Player.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -83,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654444943871</updated>
-      <workItem from="1654444967267" duration="2132000" />
+      <workItem from="1654444967267" duration="4893000" />
     </task>
     <task id="LOCAL-00001" summary="system Unity and idea">
       <created>1654446435631</created>
@@ -92,7 +94,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654446435631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add folder materials -&gt; player ground and rotate main Camera">
+      <created>1654447287494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654447287494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add move method rigidbody">
+      <created>1654447399610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654447399610</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add LookAt  method">
+      <created>1654451663049</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654451663049</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +139,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="system Unity and idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="system Unity and idea" />
+    <MESSAGE value="add folder materials -&gt; player ground and rotate main Camera" />
+    <MESSAGE value="add move method rigidbody" />
+    <MESSAGE value="add LookAt  method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LookAt  method" />
   </component>
 </project>
