@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="idea???">
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="create Enemy, enemy material add enemy NavMeshAgent">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gun/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Gun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Gun.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Gun.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/GunController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -84,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654444943871</updated>
-      <workItem from="1654444967267" duration="11112000" />
+      <workItem from="1654444967267" duration="15378000" />
     </task>
     <task id="LOCAL-00001" summary="system Unity and idea">
       <created>1654446435631</created>
@@ -198,7 +206,35 @@
       <option name="project" value="LOCAL" />
       <updated>1654458659651</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="edit Bullet.mat Ground.mat Gun.mat">
+      <created>1654458757103</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654458757103</updated>
+    </task>
+    <task id="LOCAL-00018" summary=" Save Scene">
+      <created>1654458782385</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654458782385</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lite refactoring delete no using namespace">
+      <created>1654459059170</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654459059170</updated>
+    </task>
+    <task id="LOCAL-00020" summary="create Enemy, enemy material add enemy NavMeshAgent">
+      <created>1654461045566</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654461045566</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +273,10 @@
     <MESSAGE value="add EquipGun, shoot" />
     <MESSAGE value="add gunController" />
     <MESSAGE value="idea???" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea???" />
+    <MESSAGE value="edit Bullet.mat Ground.mat Gun.mat" />
+    <MESSAGE value=" Save Scene" />
+    <MESSAGE value="lite refactoring delete no using namespace" />
+    <MESSAGE value="create Enemy, enemy material add enemy NavMeshAgent" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Enemy, enemy material add enemy NavMeshAgent" />
   </component>
 </project>
