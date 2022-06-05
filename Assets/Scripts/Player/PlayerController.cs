@@ -21,4 +21,10 @@ public class PlayerController : MonoBehaviour
     {
         _velocity = moveVelocity;
     }
+
+    public void LookAt(Vector3 lookPoint)
+    {
+        Vector3 heightCorrectedPoint = new Vector3(lookPoint.x, transform.position.y, lookPoint.z);
+        transform.LookAt(heightCorrectedPoint);
+    }
 }
