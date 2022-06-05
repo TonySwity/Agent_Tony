@@ -354,4 +354,4 @@ MonoBehaviour:
   _muzzle: {fileID: 1419268374263096967}
   _projectile: {fileID: 1120433349040923122, guid: c8c6e00ad89264922bd564fac5291678, type: 3}
   _msBetweenShoot: 100
-  _muzzleVelocity: 35
+  _muzzleVelocity: 10
