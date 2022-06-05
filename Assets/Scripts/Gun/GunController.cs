@@ -1,18 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class GunController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Transform _weaponHold;
+    [SerializeField] private Gun _startingGun;
+    
+    private Gun _equippedGun;
+
+    private void Start()
     {
-        
+        if (_startingGun)
+        {
+            EquipGun(_startingGun);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void EquipGun(Gun gunToEquip)
     {
-        
+        if (_equippedGun != null)
+        {
+            Destroy(_equippedGun.gameObject);
+        }
+
+        _equippedGun = Instantiate(gunToEquip, _weaponHold.position, _weaponHold.rotation);
+        _equippedGun.transform.parent = _weaponHold;
+    }
+
+    public void Shoot()
+    {
+        if (_equippedGun != null)
+        {
+            _equippedGun.Shoot();
+        }
     }
 }
