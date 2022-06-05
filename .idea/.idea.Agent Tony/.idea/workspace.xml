@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="change color">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gun.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Gun.mat.meta" afterDir="false" />
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="idea">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Bullet.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Bullet.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gun/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Gun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gun/GunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/GunController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +24,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
@@ -82,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654444943871</updated>
-      <workItem from="1654444967267" duration="6424000" />
+      <workItem from="1654444967267" duration="10365000" />
     </task>
     <task id="LOCAL-00001" summary="system Unity and idea">
       <created>1654446435631</created>
@@ -133,7 +145,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654451878290</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create Gun and GunController.cs">
+      <created>1654453901091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654453901091</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create Gun folder and gun material">
+      <created>1654453934959</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654453934959</updated>
+    </task>
+    <task id="LOCAL-00010" summary="idea">
+      <created>1654453947996</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654453947996</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +196,9 @@
     <MESSAGE value="add mousePosition in Plain" />
     <MESSAGE value="renamed SampleScene.unity -&gt; Game" />
     <MESSAGE value="change color" />
-    <option name="LAST_COMMIT_MESSAGE" value="change color" />
+    <MESSAGE value="create Gun and GunController.cs" />
+    <MESSAGE value="create Gun folder and gun material" />
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
   </component>
 </project>
