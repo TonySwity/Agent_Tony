@@ -9,7 +9,7 @@ public class Player : LivingEntity
     private PlayerController _controller;
     private GunController _gunController;
 
-    private void Start()
+    public override void Start()
     {
         _controller = GetComponent<PlayerController>();
         _viewCamera = Camera.main;

@@ -8,7 +8,7 @@ public class Enemy : LivingEntity
     private NavMeshAgent _pathfinder;
     private Transform _target;
 
-    private void Start()
+    public override void Start()
     {
         _pathfinder = GetComponent<NavMeshAgent>();
         _target = GameObject.FindObjectOfType<Player>().transform;
