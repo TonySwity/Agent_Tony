@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="create Enemy, enemy material add enemy NavMeshAgent">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Game.meta" afterDir="false" />
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="player inheritance LivingEntity">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Gun.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gun/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Gun.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +11,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Gun.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Gun.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/GunController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Interfaces/IDamageable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Player/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,19 +31,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "rider.run.widget.enabled.cache": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MacOS/Unity" />
@@ -92,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654444943871</updated>
-      <workItem from="1654444967267" duration="15378000" />
+      <workItem from="1654444967267" duration="16142000" />
+      <workItem from="1654532516696" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="system Unity and idea">
       <created>1654446435631</created>
@@ -234,7 +225,84 @@
       <option name="project" value="LOCAL" />
       <updated>1654461045566</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="set color">
+      <created>1654463823164</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1654463823164</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add CollisionMask on script">
+      <created>1654463859710</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654463859710</updated>
+    </task>
+    <task id="LOCAL-00023" summary="set if">
+      <created>1654463927884</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1654463927884</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add layer Enemy">
+      <created>1654463948252</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654463948252</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change muzzleVelocity">
+      <created>1654464007140</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654464007140</updated>
+    </task>
+    <task id="LOCAL-00026" summary="save scene">
+      <created>1654464032945</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1654464032945</updated>
+    </task>
+    <task id="LOCAL-00027" summary="create folder Interfaces">
+      <created>1654542748809</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654542748809</updated>
+    </task>
+    <task id="LOCAL-00028" summary="create IDamageable">
+      <created>1654542784831</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654542784831</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add Health, methods TakeHit, Die">
+      <created>1654545469107</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1654545469107</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add methods TakeHit">
+      <created>1654545506086</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1654545506086</updated>
+    </task>
+    <task id="LOCAL-00031" summary="player inheritance LivingEntity">
+      <created>1654545552334</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1654545552334</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,12 +325,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="system Unity and idea" />
-    <MESSAGE value="add folder materials -&gt; player ground and rotate main Camera" />
-    <MESSAGE value="add move method rigidbody" />
-    <MESSAGE value="add LookAt  method" />
-    <MESSAGE value="add mousePosition in Plain" />
-    <MESSAGE value="renamed SampleScene.unity -&gt; Game" />
     <MESSAGE value="change color" />
     <MESSAGE value="create Gun and GunController.cs" />
     <MESSAGE value="create Gun folder and gun material" />
@@ -277,6 +339,17 @@
     <MESSAGE value=" Save Scene" />
     <MESSAGE value="lite refactoring delete no using namespace" />
     <MESSAGE value="create Enemy, enemy material add enemy NavMeshAgent" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Enemy, enemy material add enemy NavMeshAgent" />
+    <MESSAGE value="set color" />
+    <MESSAGE value="add CollisionMask on script" />
+    <MESSAGE value="set if" />
+    <MESSAGE value="add layer Enemy" />
+    <MESSAGE value="change muzzleVelocity" />
+    <MESSAGE value="save scene" />
+    <MESSAGE value="create folder Interfaces" />
+    <MESSAGE value="create IDamageable" />
+    <MESSAGE value="add Health, methods TakeHit, Die" />
+    <MESSAGE value="add methods TakeHit" />
+    <MESSAGE value="player inheritance LivingEntity" />
+    <option name="LAST_COMMIT_MESSAGE" value="player inheritance LivingEntity" />
   </component>
 </project>
