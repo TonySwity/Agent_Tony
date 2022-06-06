@@ -7,7 +7,7 @@ public class LivingEntity : MonoBehaviour, IDamageable
     protected float Health { get; private set; }
     protected bool Died { get; private set; }
 
-    private void Start()
+    public virtual void Start()
     {
         Health = _startingHealth;
     }
