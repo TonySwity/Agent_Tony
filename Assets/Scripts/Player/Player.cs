@@ -9,8 +9,9 @@ public class Player : LivingEntity
     private PlayerController _controller;
     private GunController _gunController;
 
-    public override void Start()
+    protected override void Start()
     {
+        base.Start();
         _controller = GetComponent<PlayerController>();
         _viewCamera = Camera.main;
         _gunController = GetComponent<GunController>();
