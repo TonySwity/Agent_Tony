@@ -7,7 +7,7 @@ public class LivingEntity : MonoBehaviour, IDamageable
     protected float Health { get; private set; }
     protected bool Died { get; private set; }
 
-    public virtual void Start()
+    protected virtual void Start()
     {
         Health = _startingHealth;
     }
@@ -25,5 +25,7 @@ public class LivingEntity : MonoBehaviour, IDamageable
     private void Die()
     {
         Died = true;
+        
+        Destroy(gameObject);
     }
 }
