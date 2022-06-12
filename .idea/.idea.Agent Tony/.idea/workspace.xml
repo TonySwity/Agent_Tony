@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="update workspace.xml idea" />
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="create folder and script MapEditor.cs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MapEditor/MapEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapEditor/MapEditor.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MapEditor/MapEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game/NavMesh.asset" root0="SKIP_HIGHLIGHTING" />
@@ -93,14 +97,7 @@
       <workItem from="1654800353074" duration="4559000" />
       <workItem from="1654808854858" duration="602000" />
       <workItem from="1654947729110" duration="7744000" />
-      <workItem from="1655036716398" duration="4319000" />
-    </task>
-    <task id="LOCAL-00016" summary="idea???">
-      <created>1654458659651</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1654458659651</updated>
+      <workItem from="1655036716398" duration="5407000" />
     </task>
     <task id="LOCAL-00017" summary="edit Bullet.mat Ground.mat Gun.mat">
       <created>1654458757103</created>
@@ -438,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655043174938</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="create folder and script MapEditor.cs">
+      <created>1655043311016</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1655043311016</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +465,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="delete VS VScode" />
     <MESSAGE value="public -&gt; protected Start" />
     <MESSAGE value="create object and script Spawner" />
     <MESSAGE value="idea ???" />
@@ -486,6 +489,7 @@
     <MESSAGE value="add object MapGenerator and Script and method GenerateMap" />
     <MESSAGE value="TilePrefabs" />
     <MESSAGE value="update workspace.xml idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml idea" />
+    <MESSAGE value="create folder and script MapEditor.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="create folder and script MapEditor.cs" />
   </component>
 </project>
