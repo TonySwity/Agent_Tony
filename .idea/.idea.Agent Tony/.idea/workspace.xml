@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="add TakeDamage">
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="idea">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MapGenerator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MapGenerator/Tile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MapGenerator/Tile.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +16,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game/NavMesh.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/MapGenerator.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Enemy/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/LivingEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28f44536d0ff4020bea5a47bd63d542b18000/12/a5f5bf53/Physics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e36d865e5523460c8cdad5d0122430df13bc00/ad/b80d6c4c/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -93,21 +100,7 @@
       <workItem from="1654800353074" duration="4559000" />
       <workItem from="1654808854858" duration="602000" />
       <workItem from="1654947729110" duration="7744000" />
-      <workItem from="1655036716398" duration="635000" />
-    </task>
-    <task id="LOCAL-00011" summary="create Bullet.mat and Prefab">
-      <created>1654458378903</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1654458378903</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add method shoot and add Gunprefab -&gt; projectile spawn">
-      <created>1654458499470</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1654458499470</updated>
+      <workItem from="1655036716398" duration="3770000" />
     </task>
     <task id="LOCAL-00013" summary="add motion">
       <created>1654458568562</created>
@@ -438,7 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655037630522</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary=" save">
+      <created>1655037657808</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037657809</updated>
+    </task>
+    <task id="LOCAL-00061" summary="idea">
+      <created>1655037670089</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037670089</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,8 +468,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="changed Start public virtual" />
-    <MESSAGE value="overrie Start" />
     <MESSAGE value="lite ref" />
     <MESSAGE value="change public -&gt; protected Start" />
     <MESSAGE value="delete VS VScode packages" />
@@ -486,6 +491,8 @@
     <MESSAGE value="edit projectile life time" />
     <MESSAGE value="scene" />
     <MESSAGE value="add TakeDamage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TakeDamage" />
+    <MESSAGE value=" save" />
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
   </component>
 </project>
