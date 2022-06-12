@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="">
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="add TakeDamage">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +11,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scenes/Game/NavMesh.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Enemy/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Gun/Projectile/Projectile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/Interfaces/IDamageable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamageable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivingEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/antonsavelev/Documents/GameProjects/Agent Tony/Assets/Scripts/LivingEntity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28f44536d0ff4020bea5a47bd63d542b18000/12/a5f5bf53/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e36d865e5523460c8cdad5d0122430df13bc00/ad/b80d6c4c/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -85,77 +88,12 @@
       <updated>1654444943871</updated>
       <workItem from="1654444967267" duration="16142000" />
       <workItem from="1654532516696" duration="4976000" />
-      <workItem from="1654633699953" duration="190000" />
-    </task>
-    <task id="LOCAL-00001" summary="system Unity and idea">
-      <created>1654446435631</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1654446435631</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add folder materials -&gt; player ground and rotate main Camera">
-      <created>1654447287494</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654447287494</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add move method rigidbody">
-      <created>1654447399610</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654447399610</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add LookAt  method">
-      <created>1654451663049</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654451663049</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add mousePosition in Plain">
-      <created>1654451787345</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654451787345</updated>
-    </task>
-    <task id="LOCAL-00006" summary="renamed SampleScene.unity -&gt; Game">
-      <created>1654451848139</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1654451848139</updated>
-    </task>
-    <task id="LOCAL-00007" summary="change color">
-      <created>1654451878290</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1654451878290</updated>
-    </task>
-    <task id="LOCAL-00008" summary="create Gun and GunController.cs">
-      <created>1654453901091</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1654453901091</updated>
-    </task>
-    <task id="LOCAL-00009" summary="create Gun folder and gun material">
-      <created>1654453934959</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1654453934959</updated>
-    </task>
-    <task id="LOCAL-00010" summary="idea">
-      <created>1654453947996</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1654453947996</updated>
+      <workItem from="1654633699953" duration="2199000" />
+      <workItem from="1654715908018" duration="2032000" />
+      <workItem from="1654800353074" duration="4559000" />
+      <workItem from="1654808854858" duration="602000" />
+      <workItem from="1654947729110" duration="7744000" />
+      <workItem from="1655036716398" duration="635000" />
     </task>
     <task id="LOCAL-00011" summary="create Bullet.mat and Prefab">
       <created>1654458378903</created>
@@ -339,7 +277,168 @@
       <option name="project" value="LOCAL" />
       <updated>1654546067046</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="lite ref">
+      <created>1654634836956</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654634836956</updated>
+    </task>
+    <task id="LOCAL-00038" summary="change public -&gt; protected Start">
+      <created>1654634885121</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1654634885121</updated>
+    </task>
+    <task id="LOCAL-00039" summary="delete VS VScode packages">
+      <created>1654634923621</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1654634923621</updated>
+    </task>
+    <task id="LOCAL-00040" summary="delete VS VScode">
+      <created>1654634950545</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654634950545</updated>
+    </task>
+    <task id="LOCAL-00041" summary="public -&gt; protected Start">
+      <created>1654634972943</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1654634972943</updated>
+    </task>
+    <task id="LOCAL-00042" summary="create object and script Spawner">
+      <created>1654634998706</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1654634998706</updated>
+    </task>
+    <task id="LOCAL-00043" summary="idea ???">
+      <created>1654635013318</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1654635013318</updated>
+    </task>
+    <task id="LOCAL-00044" summary="spawner">
+      <created>1654635047642</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1654635047642</updated>
+    </task>
+    <task id="LOCAL-00045" summary=" isTrigger = true">
+      <created>1654950083978</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1654950083978</updated>
+    </task>
+    <task id="LOCAL-00046" summary="isTrigger = true">
+      <created>1654950097507</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1654950097507</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add enum State, Attack()">
+      <created>1654950161624</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1654950161624</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add event OnDeath">
+      <created>1654950200840</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1654950200840</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add NextWave, OnEnemyDied">
+      <created>1654950247236</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1654950247236</updated>
+    </task>
+    <task id="LOCAL-00050" summary="set position">
+      <created>1654952843111</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1654952843112</updated>
+    </task>
+    <task id="LOCAL-00051" summary="changed AttackPosition and Color Attack">
+      <created>1654952922623</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1654952922623</updated>
+    </task>
+    <task id="LOCAL-00052" summary="edit cube material">
+      <created>1655037435081</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037435083</updated>
+    </task>
+    <task id="LOCAL-00053" summary="edit damage methods">
+      <created>1655037480867</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037480867</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add new method">
+      <created>1655037500940</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037500941</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add MapGenerator.unity scene">
+      <created>1655037528505</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037528505</updated>
+    </task>
+    <task id="LOCAL-00056" summary="edit nav mesh">
+      <created>1655037546056</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037546056</updated>
+    </task>
+    <task id="LOCAL-00057" summary="edit projectile life time">
+      <created>1655037595424</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037595425</updated>
+    </task>
+    <task id="LOCAL-00058" summary="scene">
+      <created>1655037610583</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037610583</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add TakeDamage">
+      <created>1655037630522</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1655037630522</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,31 +461,31 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add method shoot and add Gunprefab -&gt; projectile spawn" />
-    <MESSAGE value="add motion" />
-    <MESSAGE value="add EquipGun, shoot" />
-    <MESSAGE value="add gunController" />
-    <MESSAGE value="idea???" />
-    <MESSAGE value="edit Bullet.mat Ground.mat Gun.mat" />
-    <MESSAGE value=" Save Scene" />
-    <MESSAGE value="lite refactoring delete no using namespace" />
-    <MESSAGE value="create Enemy, enemy material add enemy NavMeshAgent" />
-    <MESSAGE value="set color" />
-    <MESSAGE value="add CollisionMask on script" />
-    <MESSAGE value="set if" />
-    <MESSAGE value="add layer Enemy" />
-    <MESSAGE value="change muzzleVelocity" />
-    <MESSAGE value="save scene" />
-    <MESSAGE value="create folder Interfaces" />
-    <MESSAGE value="create IDamageable" />
-    <MESSAGE value="add Health, methods TakeHit, Die" />
-    <MESSAGE value="add methods TakeHit" />
-    <MESSAGE value="player inheritance LivingEntity" />
-    <MESSAGE value="Enemy inherited LivingEntity" />
-    <MESSAGE value="impliments IDamageable" />
-    <MESSAGE value="idea" />
     <MESSAGE value="changed Start public virtual" />
     <MESSAGE value="overrie Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="overrie Start" />
+    <MESSAGE value="lite ref" />
+    <MESSAGE value="change public -&gt; protected Start" />
+    <MESSAGE value="delete VS VScode packages" />
+    <MESSAGE value="delete VS VScode" />
+    <MESSAGE value="public -&gt; protected Start" />
+    <MESSAGE value="create object and script Spawner" />
+    <MESSAGE value="idea ???" />
+    <MESSAGE value="spawner" />
+    <MESSAGE value=" isTrigger = true" />
+    <MESSAGE value="isTrigger = true" />
+    <MESSAGE value="add enum State, Attack()" />
+    <MESSAGE value="add event OnDeath" />
+    <MESSAGE value="add NextWave, OnEnemyDied" />
+    <MESSAGE value="set position" />
+    <MESSAGE value="changed AttackPosition and Color Attack" />
+    <MESSAGE value="edit cube material" />
+    <MESSAGE value="edit damage methods" />
+    <MESSAGE value="add new method" />
+    <MESSAGE value="add MapGenerator.unity scene" />
+    <MESSAGE value="edit nav mesh" />
+    <MESSAGE value="edit projectile life time" />
+    <MESSAGE value="scene" />
+    <MESSAGE value="add TakeDamage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add TakeDamage" />
   </component>
 </project>
