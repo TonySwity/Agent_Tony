@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="idea">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MapGenerator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MapGenerator/Tile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MapGenerator/Tile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MapGenerator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agent Tony/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="63ec3435-c6f6-4241-bd4e-7da62526a7e2" name="Changes" comment="update workspace.xml idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,28 +93,7 @@
       <workItem from="1654800353074" duration="4559000" />
       <workItem from="1654808854858" duration="602000" />
       <workItem from="1654947729110" duration="7744000" />
-      <workItem from="1655036716398" duration="3770000" />
-    </task>
-    <task id="LOCAL-00013" summary="add motion">
-      <created>1654458568562</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1654458568562</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add EquipGun, shoot">
-      <created>1654458617926</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1654458617926</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add gunController">
-      <created>1654458643332</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1654458643332</updated>
+      <workItem from="1655036716398" duration="4319000" />
     </task>
     <task id="LOCAL-00016" summary="idea???">
       <created>1654458659651</created>
@@ -445,7 +417,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655037670089</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add object MapGenerator and Script and method GenerateMap">
+      <created>1655043107109</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1655043107109</updated>
+    </task>
+    <task id="LOCAL-00063" summary="TilePrefabs">
+      <created>1655043128937</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1655043128937</updated>
+    </task>
+    <task id="LOCAL-00064" summary="update workspace.xml idea">
+      <created>1655043174938</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1655043174938</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,9 +461,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="lite ref" />
-    <MESSAGE value="change public -&gt; protected Start" />
-    <MESSAGE value="delete VS VScode packages" />
     <MESSAGE value="delete VS VScode" />
     <MESSAGE value="public -&gt; protected Start" />
     <MESSAGE value="create object and script Spawner" />
@@ -493,6 +483,9 @@
     <MESSAGE value="add TakeDamage" />
     <MESSAGE value=" save" />
     <MESSAGE value="idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+    <MESSAGE value="add object MapGenerator and Script and method GenerateMap" />
+    <MESSAGE value="TilePrefabs" />
+    <MESSAGE value="update workspace.xml idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml idea" />
   </component>
 </project>
